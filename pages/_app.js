@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import React from 'react'
-import { GlobalProvider } from './context/_global'
+import { GlobalProvider } from '../components/context/_global'
 
 function MyApp({ Component, pageProps }) {
   return <div className="bg-gray-400 bg-opacity-25 min-h-screen flex flex-col">
