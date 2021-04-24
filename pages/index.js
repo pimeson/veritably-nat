@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react"
 import { motion } from 'framer-motion'
-import { useGlobalContext } from './context/global'
+import { useGlobalContext } from './context/_global'
 import Link from 'next/link'
 
 export default function Home() {
