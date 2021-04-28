@@ -15,7 +15,7 @@ export default function Home() {
     <div className="flex flex-col items-center p-2">
       <h1 className="text-center text-3xl mt-3 font-semibold"><span className="text-green-500">Veritably</span> Nat</h1>
       <div className="flex-shrink-0 mt-6">
-        <img className="rounded-full xs:h-48 s:h-48 md:h-96" src="./nat.jpeg"></img>
+        <img className="rounded-full sm:h-24 md:h-48" src="./nat.jpeg"></img>
       </div>
       <motion.div
         initial={isInitialLoad ? { scale: .75, opacity: .25, rotate: 12 } : false}
