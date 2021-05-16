@@ -38,8 +38,8 @@ export default function Home() {
       </motion.div>
       <section className="mt-6 md-w-1/2 grid grid-cols-2 gap-4">
         <HomeLink emoji="🤓" title="More About Me" href="./about-me" />
-        <HomeLink emoji="🔧" title="Things I Have Built" href="./projects" />
-        <HomeLink emoji="📝" title="Things I Have Written" href="" />
+        <HomeLink emoji="🔧" title="Things I Have Built" href="./my-projects" />
+        <HomeLink emoji="📝" title="Things I Have Written" href="./posts" />
         <HomeLink emoji="👋" title="Say Hello" href="" />
       </section>
     </div>
