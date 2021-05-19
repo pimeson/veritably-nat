@@ -6,6 +6,10 @@ const Cards = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     padding: 2em;
+
+    @media (max-width: 1000px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 const StyledPokeCard = styled.div`
